@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_nama_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Makanan" />
+
+    <EditText
+        android:id="@+id/edt_harga_makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga Makanan"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edt_url_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="Url Foto Makanan"
+        android:lines="5" />
+
+</LinearLayout>
